@@ -1,0 +1,102 @@
+.carousel-item img {
+    height: 550px;
+    width: 100%;
+}
+
+
+.descriptionCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .description {
+    margin: 10px;
+  }
+.inner{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+}
+.text{
+    text-align: center;
+}
+  /* middle box css */
+.middleBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px; 
+}
+.middleLeft{
+    height: 300px;
+    width: 200px;
+    background-color: gray;
+    margin-right: 20px;
+}
+.middleright{
+    height: 300px;
+    width: 725px;
+    background-color: gray;
+}
+
+
+
+  /*card Box css  */
+ .cardBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+ } 
+ .card{
+    width: 300px;
+ } 
+.card img{
+    height: 200px !important;
+    width: 300px;
+  }
+
+
+  /* footer css */
+  .footerCont{
+    background-color: azure;
+    margin: 10px;
+    margin-top: 70px;
+    padding-top: 10px;
+  }
+.foot1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px; 
+}
+.footbox{
+    height: 160px;
+    width: 300px;
+    /* border: 2px solid black; */
+}
+/* .copy{
+    margin-left: 80px;
+} */
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 10px 90px 10px 90px;
+}  
+
+
+
+
+
+
+
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .descriptionCont {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
